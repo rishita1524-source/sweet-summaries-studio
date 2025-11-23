@@ -1,7 +1,7 @@
 // API Configuration
-// Replace this URL with your actual backend endpoint
-export const API_BASE_URL = "https://your-backend-api.com/api";
+// Replace YOUR_BACKEND_URL with your actual backend URL
+const API_URL = "https://YOUR_BACKEND_URL/summarize";
 
 export const API_ENDPOINTS = {
-  summarize: `${API_BASE_URL}/summarize`,
+  summarize: API_URL,
 };
