@@ -68,8 +68,8 @@ const Index = () => {
       
       <div className="w-full max-w-3xl z-10">
         <div className="text-center mb-8 animate-fade-in">
-          <h1 className="text-5xl md:text-6xl font-bold gradient-text mb-2">
-            ✨ Summarizer 💖
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-2">
+            💖 <span className="text-pink-dark">Summarizer</span> 💖
           </h1>
           <p className="text-foreground/80 text-lg">
             Turn long text into cute little summaries!
@@ -79,7 +79,7 @@ const Index = () => {
         <div className="glass-card rounded-3xl p-6 md:p-8 space-y-6 animate-scale-in">
           <div className="space-y-3">
             <label className="text-foreground font-semibold text-lg flex items-center gap-2">
-              <span>✍️</span>
+              <span>✨</span>
               <span>Paste your text here...</span>
             </label>
             <Textarea
@@ -127,7 +127,7 @@ const Index = () => {
         </div>
 
         <div className="text-center mt-6 text-foreground/60 text-sm">
-          <p>Made with 💖 by your friendly summarizer</p>
+          <p>Made with 💖 by Rishita</p>
         </div>
       </div>
     </div>
