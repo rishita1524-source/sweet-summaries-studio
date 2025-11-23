@@ -4,7 +4,7 @@ const FloatingHearts = () => {
   const [hearts, setHearts] = useState<Array<{ id: number; left: number; delay: number; duration: number; size: number }>>([]);
 
   useEffect(() => {
-    const heartArray = Array.from({ length: 15 }, (_, i) => ({
+    const heartArray = Array.from({ length: 30 }, (_, i) => ({
       id: i,
       left: Math.random() * 100,
       delay: Math.random() * 10,
